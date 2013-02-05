@@ -1,0 +1,25 @@
+1.
+Number files: 581 (without hidden and dot files)
+Type command “cd /usr/bin” to enter into the directory and then type “ls | wc –l”.
+
+2.
+Process with highest usage: apache2 
+Use “top” command and then “shift + m” to let it sort by memory.
+
+3.
+Time zone: UTC
+Type command “date +%Z”. Linux servers use whatever the local time zone is. 
+
+4.
+Number of default group: 0
+Use the command “id –group”
+
+5. 
+Output & Name: 0,1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181 (Fibonacci Sequence)
+Download: sudo apt-get install wget 
+        wget http://cl.ly/2F0Q1r2y3K0l/362.tar
+Un-tar: tar 362.tar
+Run: php 362.php
+
+
+
